@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="AppResources">
-    <file>graph.png</file>
-    <file>user_logo.png</file>
-    <file>ForestMap.jpg</file>
-    <file>scientist.png</file>
-  </qresource>
-</RCC>
