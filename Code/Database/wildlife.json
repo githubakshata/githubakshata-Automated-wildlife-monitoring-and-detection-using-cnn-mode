@@ -1,0 +1,120 @@
+{
+    "WildLifeDB": {
+        "Users": {
+            "Shaad_Kn": {
+                "FirstName": "Shadab",
+                "LastName": "Karnachi",
+                "Gender": "Male",
+                "DOB": "29/11/2000",
+                "PhoneNumber": "9483819738",
+                "EmailID": "shadab@wildlife.com",
+                "Level": "Admin",
+                "Designation": "Superviser",
+                "InstituteID": "1SU.....",
+                "Password": "Shaad@123"
+            },
+            "Akshata_H": {
+                "FirstName": "Akshata",
+                "LastName": "Hiremath",
+                "Gender": "Female",
+                "DOB": "92/11/1995",
+                "PhoneNumber": "1234546785",
+                "EmailID": "akshatahiremath@wildlife.com",
+                "Level": "User",
+                "Designation": "Sr. Scientist",
+                "InstituteID": "1SU.....",
+                "Password": "akshata@123"
+            },
+            "Zoeb_D": {
+                "FirstName": "Zoeb",
+                "LastName": "Dindoor",
+                "Gender": "Male",
+                "DOB": "01/01/2002",
+                "PhoneNumber": "1234546785",
+                "EmailID": "akshatahiremath@wildlife.com",
+                "Level": "User",
+                "Designation": "Sr. Scientist",
+                "InstituteID": "1SU.....",
+                "Password": "zoeb@123"
+            },
+            "Vinayak_1": {
+                "FirstName": "Vinayak",
+                "LastName": "V",
+                "Gender": "Male",
+                "DOB": "02/02/2002",
+                "PhoneNumber": "1234546785",
+                "EmailID": "vinayak@wildlife.com",
+                "Level": "User",
+                "Designation": "Superviser",
+                "InstituteID": "1SU.....",
+                "Password": "vinayak@123"
+            },
+            "Shivakumar_7": {
+                "FirstName": "Shivakumar",
+                "LastName": "S",
+                "Gender": "Male",
+                "DOB": "03/03/2002",
+                "PhoneNumber": "1234546785",
+                "EmailID": "shiv@wildlife.com",
+                "Level": "User",
+                "Designation": "Researcher",
+                "InstituteID": "1SU.....",
+                "Password": "shiv@123"
+            }
+        },
+        "AppEngine": {
+            "Target Species": ""
+        },
+        "Models": {
+            "AnimalDetector": {
+                "model": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/Models/MobileNet_AnimalDetector.caffemodel",
+                "proto": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/requirements.txt"
+            },
+            "AnimalClassifier": {
+                "model": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/requirements.txt",
+                "proto": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/requirements.txt"
+            },
+            "DieseaseDetector": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/requirements.txt",
+            "BehaviourDetector": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/requirements.txt",
+            "RelationshipDetector": "C:/Users/Shadab.Kn/Desktop/BVB Team/Code/requirements.txt"
+        },
+        "Cameras": {
+            "Trap1": {
+                "Zone": 1,
+                "CameraPath": "C:/Users/Akshata S Hiremath/OneDrive/Desktop/Major project/Wild_Life_App_2.0_Classifier/Code/Cameras/Cheetha.mp4",
+                "Name": "Trap1",
+                "Location": [
+                    23.45454,
+                    67.565464
+                ],
+                "Description": "Located on Banayan Tree, Near Sparrow Gubbi"
+            },
+            "Trap2": {
+                "Zone": 2,
+                "CameraPath": "C:/Users/Akshata S Hiremath/OneDrive/Desktop/Major project/Wild_Life_App_2.0_Classifier/Code/Cameras/Cheetha.mp4",
+                "Name": "Trap2",
+                "Location": [
+                    78.45454,
+                    23.565464
+                ],
+                "Description": "Located on Trap Pole, Opposite to Lions Den"
+            },
+            "Trap3": {
+                "Zone": 3,
+                "CameraPath": "C:/Users/Akshata S Hiremath/OneDrive/Desktop/Major project/Wild_Life_App_2.0_Classifier/Code/Cameras/deer.mp4",
+                "Name": "Trap3",
+                "Location": [
+                    88.45454,
+                    22.565464
+                ],
+                "Description": "Located on WatchTower"
+            }
+        },
+        "Settings": {
+            "rules": {
+                "Name": "App Rules",
+                "path": ""
+            }
+        }
+    }
+}
